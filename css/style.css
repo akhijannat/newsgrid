@@ -37,7 +37,7 @@ ul{
 
 p{
     margin: 0.5rem 0;
-    /* text-align: justify; */
+    text-align: justify;
 }
 
 img{
@@ -330,4 +330,7 @@ h1, h2, h3, h4, h5, h6{
 }
  #main-footer .footer-container ul li a:hover{
     color: var(--primary-color);
+}
+#main-footer p:last-child{
+    text-align: center;
 }
